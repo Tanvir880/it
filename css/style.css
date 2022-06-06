@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+                /* header css start */
+
+.bzit-header{
+    background-image:linear-gradient(65deg, rgba(0,0,0,1),rgba(0,0,0,0.1)), url(../images/banner.png);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header-top{
+    background-color: transparent;
+    padding: 20px 0;
+}
+.bzit-logo a img{
+    width: 140px;
+}
+.bzit-nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.bzit-nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    padding: 0 10px;
+}
+.bzit-nav .active{
+    color: #ffc815;
+}
+.nav-icon{
+    color: #fff;
+    font-size: 25px;
+    text-align: right;
+    display: none;
+}
+                /* slide nav start */
+.slide-nav{
+    background-color: #ffc815;
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    top:0;
+    right: -200px;
+    display: none;
+    z-index: 100;
+}
+.slide-nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+    padding:5px 10px;
+    display: block;
+}
+.close-icon{
+    color: #000;
+    padding: 0 20px;
+    font-size: 30px;
+    text-align: right;
+}
+
+.header-bottom{
+    padding: 235px 0 395px;
+}
+    
+.banner-text span{
+    font-weight: 400;
+}
+.banner-text h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 35px;
+}
+.banner-text p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.banner-icon a{
+    color: #fff;
+    font-size: 25px;
+    padding-right: 30px;
+}
+            /* header css end */
+
+
+
+            /* About css start */
+.bzit-about{
+    padding: 80px 0;
+}
+
+.bzit-title h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: #4a4949;
+    margin-bottom: 40px;
+    background-color: #ffc815;
+    display: inline-block;
+    padding: 20px 40px;
+    transform: skewX(-20deg);
+    letter-spacing: 4px;
+}
+
+
+.about-text  h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: #4a4949;
+    margin-bottom: 20px;
+}
+.about-text p{
+    color: #595757;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.member-text h3{
+    display: inline-block;
+    font-size: 25px;
+    color: #4a4949;
+    font-weight: bold;
+    background-color: #ffc815;
+    padding: 10px 20px;
+    transform: skewX(-20deg);
+    margin-bottom: 25px;
+}
+
+.member-info{
+    display: flex;
+}
+.member-img{
+    margin-right: 20px;
+    border-radius: 50%;
+    border: 1px solid #595757;
+}
+
+.member-text h1{
+    color: #4a4949;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 8px 0;
+}
+.member-text span{
+    font-size: 18px;
+    font-style: italic;
+    color: #595757;
+    font-weight: 600;
+}
+.my-col p{
+    font-size: 18px;
+    color: #595757;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.member-bottom-text{
+    text-align: center;
+}
+.member-bottom-text p{
+    padding: 10px 25px;
+    background-color: #ffc815;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+    letter-spacing: 3px;
+    border-radius: 4px;
+    margin: 0px;
+}
+            /* About css end */
+
+
+
+            /* services css start */
+.bzit-services{
+    padding: 80px 0;
+    background-color: #f1f1f1;
+}
+.service-card{
+    text-align: center;
+    background-color: #ffc815;
+    height: 310px;
+    width: 300px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-card{
+    border: 3px solid #fff;
+    
+    background-color: #ffc815;
+    padding: 5px;
+    margin: 10px;
+}
+.card-icon{
+    width: 70px;
+    height: 70px;
+    margin:15px auto;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 7px 20px;
+}
+.card-icon span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    
+}
+.service-card h2{
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #4a4949;
+}
+.service-card p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #4a4949;
+    letter-spacing: 1px;
+}
+                    /* service css end */
+
+
+
+
+                    /* portfolio css start */
+.bzit-portfolo{
+    padding: 80px 0;
+}
+.portfolio-btn{
+    text-align: center;
+}
+.portfolio-btn button{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+.portfolio-btn .active{
+    color: #ffc815;
+}
+                    /* portfolio css end */
+
+
+
+
+                    /* vdo start */
+.bzit-vdo{
+    background-image: url(../images/banner-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vdo-icon{
+    text-align: center;
+    padding: 280px 0;
+}
+                    /* vdo end */
+
+
+                    /* contact start */
+.bzit-contact{
+    padding: 80px 0;
+}
+
+.contact-text h1{
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #4a4949;
+}
+.contact-text p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #4a4949;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+.contact-text .contact-icon{
+    display: flex;
+}
+.contact-icon span{
+    font-size: 25px;
+    color: #ffc815;
+}
+.contact-icon p{
+    font-size: 18px;
+    color: #4a4949;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+.contact-text h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #4a4949;
+    letter-spacing: 3px;
+}
+.contact-text ul{
+    display: flex;
+}
+
+.contact-text ul li a{
+    font-size: 25px;
+    background-color: #ffc815;
+    color: #fff;
+    padding: 5px 10px;
+    margin-right:20px;
+}
+
+.contact-form form{
+    border: 3px solid #ffc815;
+    padding: 30px;
+}
+.form-info{
+    margin-bottom: 30px;
+}
+.form-info label{
+    display: block;
+}
+.form-info input,.form-info textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #4a4949;
+}
+.form-info input:focus,.form-info textarea:focus{
+    outline: none;
+}
+
+.form-btn button{
+    padding: 8px 56px;
+    background-color: #ffc815;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+                    /* contact end */
+
+
+
+                    /* footer start */
+.bzit-footer{
+    padding: 20px 0;
+    background-color: #ffc815;
+}
+.footer-text p{
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #f1f1f1;
+}
+                    /* footer end */

@@ -1,0 +1,50 @@
+@media(max-width:991px){
+    .bzit-nav{
+        display: none;
+    }
+    .nav-icon{
+        display: block;
+    }
+    .slide-nav{
+        display: block;
+        position: fixed;
+    }
+}
+@media(max-width:768px){
+    .service-card{
+        margin:10px auto;
+    }
+    .form-btn button{
+        padding:4px 40px;
+        background-color: #ffc815;
+        border: none;
+        color: #fff;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .bzit-title h1{
+        font-size: 30px;
+        font-weight: bold;
+        color: #4a4949;
+        margin-bottom: 40px;
+        background-color: #ffc815;
+        display: inline-block;
+        padding: 10px 20px;
+        transform: skewX(-20deg);
+        letter-spacing: 4px;
+    }
+    .contact-text h1{
+        font-size: 30px;
+        font-weight: bold;
+        color: #4a4949;
+    }
+    .member-text h1{
+        color: #4a4949;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 8px 0;
+    }
+    .member-text span{
+        font-size: 16px;
+    }
+}
